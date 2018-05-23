@@ -14,6 +14,9 @@ void setup()
 {
 	Serial.begin(115200);
 
+	//set PWM frequency divisor
+	TCCR1B = TCCR1B & 0b11111000 | 0x01;
+	
 	car1.init();
 	car2.init();
 	

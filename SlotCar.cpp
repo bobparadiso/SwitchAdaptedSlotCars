@@ -3,8 +3,8 @@
 #define CAR_FADE_DURATION 3000
 #define CAR_START_SPEED_DURATION 50
 #define CAR_SPEED_START 255
-#define CAR_SPEED_FADE_START 90
-#define CAR_SPEED_FADE_END 45
+#define CAR_SPEED_FADE_START 150
+#define CAR_SPEED_FADE_END 60
  
 //
 SlotCar::SlotCar(uint8_t _motorPin, uint8_t _btnPin): motorPin(_motorPin), btnPin(_btnPin), motorPower(0)
