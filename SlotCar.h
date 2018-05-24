@@ -1,8 +1,6 @@
 #ifndef __SLOTCAR_H_
 #define __SLOTCAR_H_
 
-#include <Adafruit_MotorShield.h>
-
 class SlotCar
 {
 public:
